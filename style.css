@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: brown;
+    padding:30px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 559px;
+}
+.leftPart{
+    background-color: cornflowerblue;
+    flex:4 ;
+    padding: 20px;
+    margin: 3px;
+}
+.middlePart{
+    background-color: darkkhaki;
+    flex: 12;
+    padding: 20px;
+    margin: 3px;
+
+}
+.rightPart{
+    background-color: rgb(26, 152, 156);
+    flex:4 ;
+    padding: 20px;
+    margin: 3px;
+}
+.footer{
+    background-color: darkorange;
+    padding: 30px;
+    height: 70px;
+}
